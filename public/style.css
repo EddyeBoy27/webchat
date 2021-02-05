@@ -1,0 +1,153 @@
+body {
+  align-items: center;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+}
+
+.firstContainer {
+  align-content: space-around;
+  display: flex;
+  justify-content: center;
+}
+
+
+.messagesBox {
+  display: flex;
+  background-color: yellow;
+  border: 10px solid black;
+  box-shadow: inset -1px -1px 20px 6px black;
+  justify-content: start;
+  height: 66vh;
+  margin: 0 1vh 1vh 0;
+  overflow: auto;
+  width: 50vw;
+}
+
+form {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 50vw;
+}
+
+.inputMessageContainer {
+  background-color: red;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: row;
+  height: 4vh;
+  width: 50vw;
+}
+
+.containerInput {
+  width: fit-content;
+}
+
+.buttonContainer {
+  width: fit-content;
+}
+
+button {
+  height: 3.5vh;
+}
+
+#messageInput {
+  height: 3vh;
+  width: 30vw;
+}
+
+.usersContainers {
+  background-color: blue;
+  height: 71vh;
+  width: 20vw;
+}
+
+li {
+  list-style-type: none;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.msgContainer {
+  background-color: gray;
+  border: 1px red solid;
+  border-radius: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+  padding: 0.5em;
+  width: 30vw;
+}
+
+.userName {
+  color: white;
+  font-weight: bold;
+}
+
+.msgSpan {
+  font-size: 1.2em;
+}
+
+.date {
+  color: azure;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.onlineContainer {
+  background-color: blue;
+  border: 10px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 68vh;
+  overflow: auto;
+}
+
+.usersTitle {
+  align-self: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.onlineUsers {
+  align-items: center;
+  border: 3px solid darkred;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.onlineUser {
+  padding: 1em;
+}
+
+.onlineSpan {
+  color: chartreuse;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+.onlineUser:hover {
+  background-color: gray;
+  color: brown;
+  cursor: pointer;
+}
+
+.newUserName {
+  display: flex;
+  height: 4vh;
+  width: 100%;
+}
+
+.containerOnlineNick {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
